@@ -8,3 +8,7 @@ https://github.com/csce634-IUI-project/rome
 and
 run the command
 path/to/google_appengine/dev_appserver.py path/to/hobby_selector/
+
+3)
+Some basic reading:
+https://developers.google.com/appengine/docs/python/gettingstartedpython27/introduction
