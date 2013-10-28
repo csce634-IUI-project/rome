@@ -2,4 +2,9 @@
 download google_appengine sdk for python from
 https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python
 
-2) 
+2)
+To run the project, checkout the code from github location
+https://github.com/csce634-IUI-project/rome
+and
+run the command
+path/to/google_appengine/dev_appserver.py path/to/hobby_selector/
