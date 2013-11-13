@@ -1,0 +1,137 @@
+{% extends "html/base.html" %}
+{% block title %}Questions and Answers{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <style>
+  </style>
+{% endblock %}
+
+{% block header %}
+  {% include 'html/header.html' %}
+{% endblock %}
+
+{% block content %}
+  <div class='content'>
+    <div class='left'>
+      <div id='top'>
+        <div id='label'>
+          Tell us more about yourself?
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+      </div>
+      <div id='bottom'>
+        <div id='label'>
+          Let's get to know you better?
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+        <div class='questions'>
+          <div id='question'>
+            Do you like outdoor sports?
+          </div>
+          <div>
+            <input type='radio' name='sports'>Yes</input>
+            <input type='radio' name='sports'>No</input>
+            <input type='radio' name='sports'>May be</input>
+          </div>
+        </div>
+      </div>
+      <div id='button'>
+        Ask me something else
+      </div>
+    </div>
+    <div class='right'>
+      <div id='top'>
+        <div id='label'>
+          Activity identification completed
+        </div>
+        <div id='answer-area'>
+          <div id="suggested-activies">
+          </div> 
+        </div>
+      </div>
+      <div id='bottom'>
+        <div id='map-label'>
+          We think you may like these:
+        </div>
+        <div id='map'>
+        </div>
+      </div>
+      <div id='button'>
+        I have found my hobbies!
+      </div> 
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  {% include 'html/footer.html' %}
+{% endblock %}

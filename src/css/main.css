@@ -1,0 +1,125 @@
+/* Elements */
+body {
+  background-color: ebebb8;
+}
+
+/* Classes */
+
+.autocomplete {
+  text-align: left;
+}
+
+.button {
+  margin-right: 30%;
+  background-image: -webkit-linear-gradient(top, #91c45e 0%, #467913 100%);
+  padding: 15px;
+  border-radius: 5px;
+  width: inherit;
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+  float: right;
+  cursor: pointer;
+}
+
+.center {
+  text-align: -webkit-center;
+}
+
+.content {
+  overflow: auto;
+  margin-top: 30px;
+}
+
+.left {
+  float: left;
+  width: 39%;
+  text-align: right;
+  padding: 15px;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.questions {
+  padding-left: 166px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.right {
+  padding: 15px;
+  float: right;
+  text-align: left;
+  width: 39%;
+}
+
+/* IDs */
+#answer-area {
+  float: right;
+}
+
+#label {
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0;
+  font-family: monospace;
+}
+
+#bottom {
+  margin: 120px 0;
+}
+
+#suggested-activies {
+  height: 90px;
+}
+
+#map-label {
+  padding-top: 42px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#button {
+  background-image: -webkit-linear-gradient(top, #91c45e 0%, #467913 100%);
+  padding: 15px;
+  border-radius: 5px;
+  width: inherit;
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+  float: right;
+}
+
+#label {
+  font-size: 20px;
+  font-style: italic;
+  margin: 20px 0;
+  font-family: monospace;
+}
+
+#top {
+  overflow: auto;
+}
+
+#bottom {
+  margin: 120px 0;
+}
+#suggested-activies {
+  height: 90px;
+}
+#map-label {
+  padding-top: 42px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#map {
+  height: 70%;
+  width: 70%;
+}

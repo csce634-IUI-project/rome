@@ -1,0 +1,81 @@
+{% extends "html/base.html" %}
+
+{% block title %}Hobby Selector{% endblock %}
+
+{% block js %}
+  <script type="text/javascript" src="js/autocomplete.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+  <script type="text/javascript" src="js/home.js"></script>
+  <script type="text/javascript" src="js/questions.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEaNXNu3ivl56A5Wy0l0DLgnrJKWXmP48&sensor=false"></script>
+{% endblock %}
+
+{% block css %}
+  <link rel="stylesheet" href="css/autocomplete.css">
+{% endblock %}
+
+{% block content %}
+
+  <div class='page-header'>Welcome to the Intelligent Hobby Selector</div>
+
+  <div class='content four-pane'>
+    <div class='left'>
+      <div id='top'>
+        <div id='label'>
+          What do you do for fun?
+        </div>
+        <div id='answer-area'>
+          <textarea id='txtarea' rows=5 cols=40></textarea>
+          <div id='txtarea-sb' class='autocomplete'></div>
+        </div>
+        <script type="text/javascript">
+          hs.autocomplete(['Cricket', 'Soccer', 'Footbal', 'Chess',
+                           'Swimming'], 'txtarea');
+        </script>
+        <div class='button' id='select-activity'>
+        Go
+        </div> 
+      </div>
+      <div id='bottom'>
+        <div id='label'>
+          Activities you may like.
+        </div>
+        <div id='answer-area'>
+          <div>Images</div>
+        </div>
+      </div>
+    </div>
+    <div class='right'>
+      <div id='top'>
+        <div id='label'>
+          Activities popular in your area.
+        </div>
+        <div id='answer-area'>
+          <div id="suggested-activies">
+          </div> 
+        </div>
+      </div>
+      <div id='bottom' class='text-align-center'>
+        <div id='map-label'>
+        You are here - College Station, TX
+        </div>
+        <div id='map'></div>
+        <script type="text/javascript">
+          hs.map(30.6014, -96.3144);
+        </script>
+      </div>
+      <div class='button'>
+        No Match Found?
+      </div> 
+    </div>
+  </div>
+  <script type="text/javascript">
+    hs.home();
+  </script>
+  <div class='display-none'>
+    <form method='post' id='dummy-form'>
+      <input type='hidden' name='dummy-values' id='dummy-values'></input>
+      <input type='hidden' name='dummy-activity-type' id='dummy-activity-type'></input>
+    </form>
+  </div>
+{% endblock %}
