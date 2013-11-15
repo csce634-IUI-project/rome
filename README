@@ -7,7 +7,7 @@ To run the project, checkout the code from github location
 https://github.com/csce634-IUI-project/rome
 and
 run the command
-path/to/google_appengine/dev_appserver.py path/to/hobby_selector/
+path/to/google_appengine/dev_appserver.py path/to/hobby_selector/src/
 
 3)
 Some basic reading:

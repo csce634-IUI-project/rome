@@ -29,8 +29,9 @@
           <div id='txtarea-sb' class='autocomplete'></div>
         </div>
         <script type="text/javascript">
-          hs.autocomplete(['Cricket', 'Soccer', 'Footbal', 'Chess',
-                           'Swimming'], 'txtarea');
+          {% autoescape true %}
+            hs.autocomplete({{ activities|safe }}, 'txtarea');
+          {% endautoescape %}
         </script>
         <div class='button' id='select-activity'>
         Go
