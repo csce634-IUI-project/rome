@@ -43,3 +43,5 @@ def GetQuestionsFromTags(tags):
 
 def GetRelatedActivities(tags, scores):
   pass
+  
+ print ("NULL")
