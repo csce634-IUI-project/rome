@@ -9,6 +9,16 @@ hs.home = function () {
   });
 };
 
+hs.home.upvote = function (elName) {
+  el = document.getElementsByName(elName)[0];
+  el.value = Number(el.value) + 1;
+};
+
+hs.home.downvote = function (elName) {
+  el = document.getElementsByName(elName)[0];
+  el.value = Number(el.value) - 1;
+};
+
 hs.home.sendactivity = function (elId) {
   values = document.getElementById(elId).value.split(', ');
   hs.questions.getQuestions(values, 'activity');

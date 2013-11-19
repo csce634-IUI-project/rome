@@ -1,90 +1,90 @@
-Activity,Indoor,Outdoor,Social (0-6),Physical (0-6),Intellectual (0-6),Health (0-6),Technology (0-6),Performance (0-6),Extreme (T/F),Strange (T/F),Cheap(0-6),Medium range cost(0-6),Expensive(0-6),Creative(0-6),Fashion(0-6),Home Improvement(0-6),Competitive(0-6),Team/Group(0-6),Audio Hobbies(0-6),Aquatic,Landscaping,Collecting,Photography,Gastronomy,Admiration of foreign cultures
-Fishing,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Hiking,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Rappelling,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Billiards,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Poker,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Cycling,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Motorcycle Racing,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Snowboarding/Skiing,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Skydiving,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Soccer,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Basketball,T,T,,,,,,,,,,,,,,,,,,,,,,,
-American Football,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Rugby,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Golf,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Baseball,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Running (fitness),T,T,,,,,,,,,,,,,,,,,,,,,,,
-Running (competitive),T,T,,,,,,,,,,,,,,,,,,,,,,,
-Tennis,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Badminton,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Weightlifting/Bodybuilding,T,F,,,,,,,,,,,,,,,,,,,,,,,
-River Rafting,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Swimming/Diving,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Watersports,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Canoeing/Kayaking/Paddleboarding/Rowing,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Surfing,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Sailing,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Scuba,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Camping,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Event Planning,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Ice Skating,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Equestrian,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Cooking,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Sewing/Knitting/Needle Crafts,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Quilting,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Jewelry Making,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Painting,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Model Construction,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Creative Writing,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Interior Decoration,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Landscape Decoration,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Candle Making,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Foreign Languages,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Antiques Collecting,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Origami,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Aquarium,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Cake Decorating,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Makeup,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Costuming,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Gardening,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Bonsai,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Yoga,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Pottery,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Scrapbooking,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Metal Detecting,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Stamp/Coin Collection,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Tabletop Games,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Reading/ Book Collecting,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Martial Arts,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Woodworking,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Drawing,T,F,,,,,,,,,,,,,,,,,,,,,,,
-PC Gaming,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Comic Books,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Film Buff,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Children Volunteer,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Magic/Illusionism,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Art History,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Metal Work,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Leather Work,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Astronomy,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Birdwatching,F,T,,,,,,,,,,,,,,,,,,,,,,,
-Photography,T,T,,,,,,,,,,,,,,,,,,,,,,,
-Blogging,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Sculpting,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Animal Volunteering,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Animal Breeding,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Dance (Classic),T,F,,,,,,,,,,,,,,,,,,,,,,,
-Dance (Folk),T,F,,,,,,,,,,,,,,,,,,,,,,,
-Dance (Modern),T,F,,,,,,,,,,,,,,,,,,,,,,,
-History (Modern),F,F,,,,,,,,,,,,,,,,,,,,,,,
-History (Classic),F,F,,,,,,,,,,,,,,,,,,,,,,,
-History (Local),F,F,,,,,,,,,,,,,,,,,,,,,,,
-History (Ancient),F,F,,,,,,,,,,,,,,,,,,,,,,,
-Earth Sciences,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Musical Performance,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Musical Composition,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Theatrical Performance,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Theatrical Composition,T,F,,,,,,,,,,,,,,,,,,,,,,,
-Brewing,F,F,,,,,,,,,,,,,,,,,,,,,,,
-Chess Boxing,T,F,,,,,,,,,,,,,,,,,,,,,,,
+Activity,Admiration of foreign cultures,Gastronomy,Photography,Collecting,Landscaping,Aquatic,Audio Hobbies,Team/Group,Competitive,Home Improvement,Fashion,Creative,Indoor,Outdoor,Social,Physical,Intellectual,Health,Technology,Performance,Extreme,Strange,Cheap,Medium range cost,Expensive
+Fishing,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,T,F,F,F,F,F,F,T,F,F
+Hiking,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,T,F,T,F,F,F,F,T,F,F
+Rappelling,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,T,F,T,F,F,T,T,F,T,F
+Billiards,F,F,F,F,F,F,F,T,T,F,F,F,T,F,T,F,F,F,F,F,F,F,T,F,F
+Poker,F,F,F,F,F,F,F,F,T,F,F,F,T,F,T,F,F,F,F,F,F,F,T,F,F
+Cycling,F,F,F,F,F,F,F,F,T,F,F,F,T,T,F,T,F,T,F,F,T,F,T,F,F
+Motorcycle Racing,F,F,F,F,F,F,F,F,T,F,F,F,F,T,F,T,F,T,F,F,T,T,F,F,T
+Snowboarding/Skiing,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,T,F,T,F,F,T,F,F,F,T
+Skydiving,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,T,F,F,F,F,T,T,F,F,F
+Soccer,F,F,F,F,F,F,F,T,T,F,F,F,T,T,T,T,F,T,F,F,F,F,T,F,F
+Basketball,F,F,F,F,F,F,F,T,T,F,F,F,T,T,T,T,F,T,F,F,F,F,T,F,F
+American Football,F,F,F,F,F,F,F,T,T,F,F,F,F,T,T,T,F,T,F,F,F,F,F,F,T
+Rugby,F,F,F,F,F,F,F,T,T,F,F,F,F,T,T,T,F,T,F,F,F,F,F,F,T
+Golf,F,F,F,F,F,F,F,F,T,F,F,F,F,T,T,T,F,F,F,F,F,F,F,T,F
+Baseball,F,F,F,F,F,F,F,T,T,F,F,F,F,T,T,T,F,T,F,F,F,F,F,T,F
+Running (fitness),F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,T,F,T,F,F,F,F,T,F,T
+Running (competitive),F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,T,F,T,F,F,F,F,T,F,T
+Tennis,F,F,F,F,F,F,F,F,T,F,F,F,T,T,T,T,F,T,F,F,F,F,T,F,T
+Badminton,F,F,F,F,F,F,F,F,T,F,F,F,T,T,T,T,F,T,F,F,F,F,T,F,T
+Weightlifting/Bodybuilding,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,F,T,F,F,F,F,F,T,F
+River Rafting,F,F,F,F,F,T,F,T,F,F,F,F,F,T,T,T,F,T,F,F,T,F,F,T,F
+Swimming/Diving,F,F,F,F,F,T,F,F,F,F,F,F,T,T,F,T,F,T,F,F,F,F,F,T,F
+Watersports,F,F,F,F,F,T,F,T,T,F,F,F,T,T,T,T,F,T,F,F,T,F,F,F,T
+Canoeing/Kayaking/Paddleboarding/Rowing,F,F,F,F,F,T,F,F,F,F,F,F,F,T,F,T,F,T,F,F,T,F,F,T,F
+Surfing,F,F,F,F,F,T,F,F,F,F,F,F,F,T,F,T,F,T,F,F,T,F,F,T,F
+Sailing,F,F,F,F,F,T,F,T,F,F,F,F,F,T,F,T,F,F,F,F,F,F,F,F,T
+Scuba,F,F,F,F,F,T,F,F,F,F,F,F,F,T,F,T,F,T,F,F,T,F,F,F,T
+Camping,F,F,F,F,F,F,F,T,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,T,F
+Event Planning,F,F,F,F,F,F,F,T,F,F,F,F,F,F,T,F,F,F,F,F,F,F,T,F,F
+Ice Skating,F,F,F,F,F,F,F,F,F,F,F,F,T,T,T,T,F,T,F,F,F,F,F,T,F
+Equestrian,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,T,F,T,F,F,F,F,F,T,F
+Cooking,F,T,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Sewing/Knitting/Needle Crafts,F,F,F,F,F,F,F,F,F,F,T,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Quilting,F,F,F,F,F,F,F,F,F,T,T,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Jewelry Making,F,F,F,F,F,F,F,F,F,F,T,T,T,F,F,F,F,F,F,F,F,F,F,T,F
+Painting,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Model Construction,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Creative Writing,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,T,F,F,F,F,F,T,F,F
+Interior Decoration,F,F,F,F,F,F,F,F,F,T,F,T,T,F,F,F,F,F,F,F,F,F,F,T,F
+Landscape Decoration,F,F,F,F,T,F,F,F,F,T,F,T,F,T,F,F,F,F,F,F,F,F,F,T,F
+Candle Making,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Foreign Languages,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,T,F,F,F,F,F,F,T,F
+Antiques Collecting,F,F,F,T,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,F,F,T
+Origami,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Aquarium,F,F,F,F,T,F,F,F,F,T,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Cake Decorating,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Makeup,F,F,F,F,F,F,F,F,F,F,T,T,T,F,F,F,F,F,F,F,F,F,F,T,F
+Costuming,F,F,F,F,F,F,F,F,F,F,T,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Gardening,F,F,F,F,T,F,F,F,F,T,F,T,F,T,F,F,F,F,F,F,F,F,T,F,F
+Bonsai,F,F,F,F,T,F,F,F,F,T,F,T,F,T,F,F,F,F,F,F,F,F,T,F,F
+Yoga,F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,T,F,T,F,F,F,F,T,F,F
+Pottery,F,F,F,F,F,F,F,F,F,T,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+Scrapbooking,F,F,F,T,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,T,F,F
+Metal Detecting,F,F,F,T,F,F,F,F,F,F,F,F,F,T,F,F,F,F,T,F,F,F,F,T,F
+Stamp/Coin Collection,F,F,F,T,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,F,T,F
+Tabletop Games,F,F,F,F,F,F,F,T,F,F,F,F,T,F,T,F,F,F,F,F,F,F,T,F,F
+Reading/ Book Collecting,F,F,F,T,F,F,F,F,F,F,F,F,T,F,F,F,T,F,F,F,F,F,T,F,F
+Martial Arts,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,F,T,F,F,F,F,F,T,F
+Woodworking,F,F,F,F,F,F,F,F,F,T,F,T,F,F,F,F,F,F,F,F,F,F,F,T,F
+Drawing,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,T,F,F
+PC Gaming,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,T,F,F,F,T,F,F
+Comic Books,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,T,F,F
+Film Buff,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,T,F,F
+Children Volunteer,F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,T,F,F
+Magic/Illusionism,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,F,F,T,F
+Art History,T,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,T,F,F,F,F,F,F,T,F
+Metal Work,F,F,F,F,F,F,F,F,F,T,F,T,F,F,F,F,F,F,F,F,F,F,F,T,F
+Leather Work,F,F,F,F,F,F,F,F,F,T,F,T,F,F,F,F,F,F,F,F,F,F,F,T,F
+Astronomy,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,F,T,F,F,F,F,T,F
+Birdwatching,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,T,F
+Photography,F,F,T,F,F,F,F,F,F,F,F,T,T,T,F,F,T,F,T,F,F,F,F,F,T
+Blogging,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,T,F,F,F,F,F,T,F,F
+Sculpting,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,F,T,F
+Animal Volunteering,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F
+Animal Breeding,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F
+Dance (Classic),F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,T,F,F,F,T,F,F,F,T,F
+Dance (Folk),F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,T,F,F,F,T,F,F,F,T,F
+Dance (Modern),F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,T,F,F,F,T,F,F,F,T,F
+History (Modern),T,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,T,F,F
+History (Classic),T,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,T,F,F
+History (Local),F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,T,F,F
+History (Ancient),T,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,T,F,F
+Earth Sciences,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,T,F,F
+Musical Performance,F,F,F,F,F,F,T,T,F,F,F,T,T,F,F,F,F,F,F,T,F,F,F,T,F
+Musical Composition,F,F,F,F,F,F,T,F,F,F,F,T,T,F,F,F,F,F,F,F,F,F,F,F,T
+Theatrical Performance,F,F,F,F,F,F,F,T,F,F,F,T,T,F,F,F,F,F,F,T,F,F,F,T,F
+Theatrical Composition,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,T,F,F,F,F,F,F,F,T
+Brewing,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,F,F
+Chess Boxing,F,F,F,F,F,F,F,F,T,F,F,F,T,F,T,T,T,T,F,F,F,F,F,T,F

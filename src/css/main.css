@@ -11,7 +11,7 @@ body {
 
 .button {
   margin-right: 30%;
-  background-image: -webkit-linear-gradient(top, #91c45e 0%, #467913 100%);
+  background-image: -webkit-linear-gradient(top, #6699FF 0%, #66CCFF 100%);
   padding: 15px;
   border-radius: 5px;
   width: inherit;
@@ -19,6 +19,18 @@ body {
   font-family: cursive;
   text-align: center;
   float: right;
+  cursor: pointer;
+}
+
+.small-button {
+  float: left;
+  padding: 5px 10px 5px 10px;
+  background-image: -webkit-linear-gradient(top, #91c45e 0%, #467913 100%);
+  border-radius: 5px;
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+  margin-right: 30px;
   cursor: pointer;
 }
 
@@ -93,6 +105,18 @@ body {
   font-family: cursive;
   text-align: center;
   float: right;
+}
+
+#small-button {
+  float: left;
+  padding: 5px 10px 5px 10px;
+  background-image: -webkit-linear-gradient(top, #91c45e 0%, #467913 100%);
+  border-radius: 5px;
+  font-style: italic;
+  font-family: cursive;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 #label {

@@ -41,8 +41,33 @@
         <div id='label'>
           Activities you may like.
         </div>
-        <div id='answer-area'>
-          <div>Images</div>
+        <div id="answer-area" style="text-align: left;">
+          <div style="overflow: auto; width: 300px;">
+            <div style="float: left; width: 150px; height: 50px; padding: 5px 0; overflow: auto;" onclick="hs.questions.getQuestions('Outdoor', 'tag');"> 
+              <img alt="outdoor" src="/img/anchor.png" style="float: left;">
+              <div style="float: right; padding: 17px 15px 0px;">Outdoor</div>
+            </div>
+            <div style="float: left; width: 150px; height: 50px; padding: 5px 0; overflow: auto;" onclick="hs.questions.getQuestions('Social', 'tag');">
+              <img alt="social" src="/img/social.png" style="float: left;">
+              <div style="float: right; padding: 17px 15px 0px;">Social</div>
+            </div>
+            <div style="float: left; width: 150px; height: 50px; padding: 5px 0; overflow: auto;" onclick="hs.questions.getQuestions('Sports', 'tag');">
+              <img alt="hourglass" src="/img/hourglass.png" style="float: left;">
+              <div style="float: right; padding: 17px 15px 0px;">Sports</div>
+            </div>
+            <div style="float: left; width: 150px; height: 50px; padding: 5px 0; overflow: auto;" onclick="hs.questions.getQuestions('Art', 'tag');">
+              <img alt="brush" src="/img/brush.png" style="float: left;">
+              <div style="float: right; padding: 17px 15px 0px;">Art</div>
+            </div>
+            <div style="float: left; width: 150px; height: 50px; padding: 5px 0; overflow: auto;" onclick="hs.questions.getQuestions('Cinema', 'tag');">
+              <img alt="video" src="/img/video.png" style="float: left;">
+              <div style="float: right; padding: 17px 15px 0px;">Cinema</div>
+            </div>
+            <div style="float: left; width: 150px; height: 50px; padding: 5px 0; overflow: auto;" onclick="hs.questions.getQuestions('Music', 'tag');">
+              <img alt="music" src="/img/music.png" style="float: left;">
+              <div style="float: right; padding: 17px 15px 0px;">Music</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -52,8 +77,11 @@
           Activities popular in your area.
         </div>
         <div id='answer-area'>
-          <div id="suggested-activies">
-          </div> 
+          <div id="suggested-activies" style="height: auto;">
+          {% for activity in activity_list %}
+            <span onclick="javascript: hs.questions.getQuestions('{{ activity }}', 'activity');" >{{ activity }}</span>&nbsp;&nbsp;
+          {% endfor %}
+          </div>
         </div>
       </div>
       <div id='bottom' class='text-align-center'>

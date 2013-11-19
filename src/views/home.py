@@ -2,6 +2,7 @@ import json
 import webapp2
 
 from libraries import constants
+from libraries import library
 
 
 class MainPage(webapp2.RequestHandler):
@@ -11,4 +12,5 @@ class MainPage(webapp2.RequestHandler):
     template = constants.JINJA_ENVIRONMENT.get_template(
         constants.HTML_ROOT + 'home.html')
     self.response.write(template.render(
-        {'activities': json.dumps(constants.GetActivities())}))
+        {'activities': json.dumps(library.GetActivities()),
+         'activity_list': library.GetActivities()}))
