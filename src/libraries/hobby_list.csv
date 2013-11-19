@@ -1,0 +1,90 @@
+Activity,Admiration of foreign cultures,Gastronomy,Photography,Collecting,Landscaping,Aquatic,Audio Hobbies,Team/Group,Competitive,Home Improvement,Fashion,Creative,Indoor,Outdoor,Social,Physical,Intellectual,Health,Technology,Performance,Extreme,Strange,Cheap,Medium range cost,Expensive
+Fishing,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,3,x,x,x,x,x,x,3,x,x
+Hiking,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,3,x,3,x,x,x,x,3,x,x
+Rappelling,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,3,x,3,x,x,3,3,x,3,x
+Billiards,x,x,x,x,x,x,x,3,3,x,x,x,3,x,3,x,x,x,x,x,x,x,3,x,x
+Poker,x,x,x,x,x,x,x,x,3,x,x,x,3,x,3,x,x,x,x,x,x,x,3,x,x
+Cycling,x,x,x,x,x,x,x,x,3,x,x,x,3,3,x,3,x,3,x,x,3,x,3,x,x
+Motorcycle Racing,x,x,x,x,x,x,x,x,3,x,x,x,x,3,x,3,x,3,x,x,3,3,x,x,3
+Snowboarding/Skiing,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,3,x,3,x,x,3,x,x,x,3
+Skydiving,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,3,x,x,x,x,3,3,x,x,x
+Soccer,x,x,x,x,x,x,x,3,3,x,x,x,3,3,3,3,x,3,x,x,x,x,3,x,x
+Basketball,x,x,x,x,x,x,x,3,3,x,x,x,3,3,3,3,x,3,x,x,x,x,3,x,x
+American football,x,x,x,x,x,x,x,3,3,x,x,x,x,3,3,3,x,3,x,x,x,x,x,x,3
+Rugby,x,x,x,x,x,x,x,3,3,x,x,x,x,3,3,3,x,3,x,x,x,x,x,x,3
+Golf,x,x,x,x,x,x,x,x,3,x,x,x,x,3,3,3,x,x,x,x,x,x,x,3,x
+Baseball,x,x,x,x,x,x,x,3,3,x,x,x,x,3,3,3,x,3,x,x,x,x,x,3,x
+Running (fitness),x,x,x,x,x,x,x,x,x,x,x,x,3,3,x,3,x,3,x,x,x,x,3,x,3
+Running (competitive),x,x,x,x,x,x,x,x,x,x,x,x,3,3,x,3,x,3,x,x,x,x,3,x,3
+Tennis,x,x,x,x,x,x,x,x,3,x,x,x,3,3,3,3,x,3,x,x,x,x,3,x,3
+Badminton,x,x,x,x,x,x,x,x,3,x,x,x,3,3,3,3,x,3,x,x,x,x,3,x,3
+Weightlifting/Bodybuilding,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,3,x,3,x,x,x,x,x,3,x
+River Rafting,x,x,x,x,x,3,x,3,x,x,x,x,x,3,3,3,x,3,x,x,3,x,x,3,x
+Swimming/Diving,x,x,x,x,x,3,x,x,x,x,x,x,3,3,x,3,x,3,x,x,x,x,x,3,x
+Watersports,x,x,x,x,x,3,x,3,3,x,x,x,3,3,3,3,x,3,x,x,3,x,x,x,3
+Canoeing/Kayaking/Paddleboarding/Rowing,x,x,x,x,x,3,x,x,x,x,x,x,x,3,x,3,x,3,x,x,3,x,x,3,x
+Surfing,x,x,x,x,x,3,x,x,x,x,x,x,x,3,x,3,x,3,x,x,3,x,x,3,x
+Sailing,x,x,x,x,x,3,x,3,x,x,x,x,x,3,x,3,x,x,x,x,x,x,x,x,3
+Scuba,x,x,x,x,x,3,x,x,x,x,x,x,x,3,x,3,x,3,x,x,3,x,x,x,3
+Camping,x,x,x,x,x,x,x,3,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,3,x
+Event Planning,x,x,x,x,x,x,x,3,x,x,x,x,x,x,3,x,x,x,x,x,x,x,3,x,x
+Ice Skating,x,x,x,x,x,x,x,x,x,x,x,x,3,3,3,3,x,3,x,x,x,x,x,3,x
+Equestrian,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,3,x,3,x,x,x,x,x,3,x
+Cooking,x,3,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Sewing/Knitting/Needle Crafts,x,x,x,x,x,x,x,x,x,x,3,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Quilting,x,x,x,x,x,x,x,x,x,3,3,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Jewelry Making,x,x,x,x,x,x,x,x,x,x,3,3,3,x,x,x,x,x,x,x,x,x,x,3,x
+Painting,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Model Construction,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Creative Writing,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,3,x,x,x,x,x,3,x,x
+Interior Decoration,x,x,x,x,x,x,x,x,x,3,x,3,3,x,x,x,x,x,x,x,x,x,x,3,x
+Landscape Decoration,x,x,x,x,3,x,x,x,x,3,x,3,x,3,x,x,x,x,x,x,x,x,x,3,x
+Candle Making,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Foreign Languages,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,3,x,x,x,x,x,x,3,x
+Antiques Collecting,x,x,x,3,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,x,x,3
+Origami,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Aquarium,x,x,x,x,3,x,x,x,x,3,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Cake Decorating,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Makeup,x,x,x,x,x,x,x,x,x,x,3,3,3,x,x,x,x,x,x,x,x,x,x,3,x
+Costuming,x,x,x,x,x,x,x,x,x,x,3,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Gardening,x,x,x,x,3,x,x,x,x,3,x,3,x,3,x,x,x,x,x,x,x,x,3,x,x
+Bonsai,x,x,x,x,3,x,x,x,x,3,x,3,x,3,x,x,x,x,x,x,x,x,3,x,x
+Yoga,x,x,x,x,x,x,x,x,x,x,x,x,3,3,x,3,x,3,x,x,x,x,3,x,x
+Pottery,x,x,x,x,x,x,x,x,x,3,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+Scrapbooking,x,x,x,3,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,3,x,x
+Metal Detecting,x,x,x,3,x,x,x,x,x,x,x,x,x,3,x,x,x,x,3,x,x,x,x,3,x
+Stamp/Coin Collection,x,x,x,3,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,x,3,x
+Tabletop Games,x,x,x,x,x,x,x,3,x,x,x,x,3,x,3,x,x,x,x,x,x,x,3,x,x
+Reading/ Book Collecting,x,x,x,3,x,x,x,x,x,x,x,x,3,x,x,x,3,x,x,x,x,x,3,x,x
+Martial Arts,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,3,x,3,x,x,x,x,x,3,x
+Woodworking,x,x,x,x,x,x,x,x,x,3,x,3,x,x,x,x,x,x,x,x,x,x,x,3,x
+Drawing,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,3,x,x
+PC Gaming,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,3,x,x,x,3,x,x
+Comic Books,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,3,x,x
+Film Buff,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,3,x,x
+Children Volunteer,x,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,3,x,x
+Magic/Illusionism,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,x,x,3,x
+Art History,3,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,3,x,x,x,x,x,x,3,x
+Metal Work,x,x,x,x,x,x,x,x,x,3,x,3,x,x,x,x,x,x,x,x,x,x,x,3,x
+Leather Work,x,x,x,x,x,x,x,x,x,3,x,3,x,x,x,x,x,x,x,x,x,x,x,3,x
+Astronomy,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,3,x,3,x,x,x,x,3,x
+Birdwatching,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,3,x
+Photography,x,x,3,x,x,x,x,x,x,x,x,3,3,3,x,x,3,x,3,x,x,x,x,x,3
+Blogging,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,3,x,x,x,x,x,3,x,x
+Sculpting,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,x,3,x
+Animal Volunteering,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x
+Animal Breeding,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x
+Dance (Classic),x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,3,x,x,x,3,x,x,x,3,x
+Dance (Folk),x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,3,x,x,x,3,x,x,x,3,x
+Dance (Modern),x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,3,x,x,x,3,x,x,x,3,x
+History (Modern),3,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,3,x,x
+History (Classic),3,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,3,x,x
+History (Local),x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,3,x,x
+History (Ancient),3,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,3,x,x
+Earth Sciences,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,x,x,x,3,x,x
+Musical Performance,x,x,x,x,x,x,3,3,x,x,x,3,3,x,x,x,x,x,x,3,x,x,x,3,x
+Musical Composition,x,x,x,x,x,x,3,x,x,x,x,3,3,x,x,x,x,x,x,x,x,x,x,x,3
+Theatrical Performance,x,x,x,x,x,x,x,3,x,x,x,3,3,x,x,x,x,x,x,3,x,x,x,3,x
+Theatrical Composition,x,x,x,x,x,x,x,x,x,x,x,3,3,x,x,x,3,x,x,x,x,x,x,x,3
+Brewing,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,3,x,x,3,x,x
+Chess Boxing,x,x,x,x,x,x,x,x,3,x,x,x,3,x,3,3,3,3,x,x,x,x,x,3,x
