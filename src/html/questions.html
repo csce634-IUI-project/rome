@@ -37,38 +37,12 @@
           </div>
         {% endfor %}
       </div>
-      <div id='bottom'>
-        <div id='label'>
-          Let's get to know you better?
-        </div>
-        {% for question in questions %}
-          <div class='questions'>
-            <div id='question'>
-              {{ question }}
-            </div>
-            <div>
-              <input type='radio' name='{{ question }}' value="may be">Yes</input>
-              <input type='radio' name='{{ question }}' value="may be">No</input>
-              <input type='radio' name='{{ question }}' value="may be">May be</input>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
       <div id='button' onclick="submit();">
         Ask me something else
       </div>
     </div>
     <div class='right'>
       <div id='top'>
-        <div id='label'>
-          Activity identification completed
-        </div>
-        <div id='answer-area'>
-          <div id="suggested-activies">
-          </div> 
-        </div>
-      </div>
-      <div id='bottom'>
         <div id='map-label'>
           We think you may like these:
         </div>
@@ -79,9 +53,6 @@
           <input type="hidden" value=0 name="activity-voting">
         </div>
       </div>
-      <div id='button'>
-        I have found my hobbies!
-      </div> 
     </div>
   </form>
   </div>
