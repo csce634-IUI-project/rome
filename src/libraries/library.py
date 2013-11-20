@@ -156,7 +156,12 @@ def GetQuestionsFromTags(tags, asked_questions):
     if row['Tag'] in tags:
       questions.append((row['Sl no'], row['Question']))
   questions = list(set(questions))
-  return questions
+  print 'aq', asked_questions
+  print 'questions', questions
+  for qno in reversed(range(len(questions))):
+    if questions[qno][0] in asked_questions:
+      del questions[qno]
+  return questions[:2]
 
 
 def ProcessAnswersAndReturnNewTagsAndSuggestedTasks(user_model, q_n_a):

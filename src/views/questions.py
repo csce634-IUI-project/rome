@@ -10,6 +10,7 @@ class Questions(webapp2.RequestHandler):
 
   def post(self):
     asked_questions = self.request.get('asked_questions', '').split(',')
+    asked_questions = [x for x in asked_questions if x]
     user_model = json.loads(self.request.get('user_model'))
     tags = []
     q_n_a = {}

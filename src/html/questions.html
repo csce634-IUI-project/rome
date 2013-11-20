@@ -51,12 +51,14 @@
         <div id='map-label'>
           We think you may like these:
         </div>
-        <div id='map'>
+        <div id='map' style="width: 100%;">
           {% for act in related_activities %}
-            <div style="float: left; padding: 10px 44px;">{{ act }}</div>
-            <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act }}');" >Up vote</div>
-            <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act }}');" >Down vote</div>
-            <input type="hidden" value=0 name="activity-voting-{{ act }}">
+            <div style="overflow: auto;">
+              <div style="float: left; padding: 10px 44px;">{{ act }}</div>
+              <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act }}');" >Up vote</div>
+              <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act }}');" >Down vote</div>
+              <input type="hidden" value=0 name="activity-voting-{{ act }}">
+            </div>
           {% endfor %}
         </div>
       </div>
