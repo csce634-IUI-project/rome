@@ -19,50 +19,53 @@
 {% block content %}
   <div class='content'>
   <form method="post" action="questions">
-    {{ q_sl_no }}
     <input type="hidden" name="q_sl_no" value="{{ q_sl_no }}">
     <input type="hidden" name="from_questions" value=true>
     <input type="hidden" name="asked_questions" value="{{ asked_questions }}">
     <input type="hidden" name="user_model" value="{{ user_model }}">
-    <div class='left'>
-      <div id='top'>
-        <div id='label'>
-          Tell us more about yourself?
-        </div>
-        {% for question in questions %}
-          <div class='questions'>
-            <div id='question'>
-              {{ question.1 }}
-            </div>
-            <div>
-              <input type='radio' name='question-{{ question.0 }}' value="yes">Yes</input>
-              <input type='radio' name='question-{{ question.0 }}' value="no">No</input>
-              <input type='radio' name='question-{{ question.0 }}' value="may be">May be</input>
-            </div>
+    {% if questions %}
+      <div class='left'>
+        <div id='top'>
+          <div id='label'>
+            Tell us more about yourself?
           </div>
-        {% endfor %}
-      </div>
-      <div id='button' onclick="submit();">
-        Ask me something else
-      </div>
-    </div>
-    <div class='right'>
-      <div id='top'>
-        <div id='map-label'>
-          We think you may like these:
-        </div>
-        <div id='map' style="width: 100%;">
-          {% for act in related_activities %}
-            <div style="overflow: auto;">
-              <div style="float: left; padding: 10px 44px;">{{ act }}</div>
-              <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act }}');" >Up vote</div>
-              <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act }}');" >Down vote</div>
-              <input type="hidden" value=0 name="activity-voting-{{ act }}">
+          {% for question in questions %}
+            <div class='questions'>
+              <div id='question'>
+                {{ question.1 }}
+              </div>
+              <div>
+                <input type='radio' name='question-{{ question.0 }}' value="yes">Yes</input>
+                <input type='radio' name='question-{{ question.0 }}' value="no">No</input>
+                <input type='radio' name='question-{{ question.0 }}' value="may be">May be</input>
+              </div>
             </div>
           {% endfor %}
         </div>
+        <div id='button' onclick="submit();">
+          Ask me something else
+        </div>
       </div>
-    </div>
+    {% endif %}
+    {% if related_activities %}
+      <div class='right'>
+        <div id='top'>
+          <div id='map-label'>
+            We think you may like these:
+          </div>
+          <div id='map' style="width: 100%;">
+            {% for act in related_activities %}
+              <div style="overflow: auto;">
+                <div style="float: left; padding: 10px 44px;">{{ act }}</div>
+                <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act }}');" >Up vote</div>
+                <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act }}');" >Down vote</div>
+                <input type="hidden" value=0 name="activity-voting-{{ act }}">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
   </form>
   </div>
 {% endblock %}
