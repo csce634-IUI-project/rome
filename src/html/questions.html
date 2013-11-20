@@ -19,6 +19,11 @@
 {% block content %}
   <div class='content'>
   <form method="post" action="questions">
+    {{ q_sl_no }}
+    <input type="hidden" name="q_sl_no" value="{{ q_sl_no }}">
+    <input type="hidden" name="from_questions" value=true>
+    <input type="hidden" name="asked_questions" value="{{ asked_questions }}">
+    <input type="hidden" name="user_model" value="{{ user_model }}">
     <div class='left'>
       <div id='top'>
         <div id='label'>
@@ -27,12 +32,12 @@
         {% for question in questions %}
           <div class='questions'>
             <div id='question'>
-              {{ question }}
+              {{ question.1 }}
             </div>
             <div>
-              <input type='radio' name='{{ question }}' value="yes">Yes</input>
-              <input type='radio' name='{{ question }}' value="no">No</input>
-              <input type='radio' name='{{ question }}' value="may be">May be</input>
+              <input type='radio' name='question-{{ question.0 }}' value="yes">Yes</input>
+              <input type='radio' name='question-{{ question.0 }}' value="no">No</input>
+              <input type='radio' name='question-{{ question.0 }}' value="may be">May be</input>
             </div>
           </div>
         {% endfor %}
@@ -47,10 +52,12 @@
           We think you may like these:
         </div>
         <div id='map'>
-          <div style="float: left; padding: 10px 44px;">Football</div>
-          <div id="small-button" onclick="hs.home.upvote('activity-voting');" >Up vote</div>
-          <div id="small-button" onclick="hs.home.downvote('activity-voting');" >Down vote</div>
-          <input type="hidden" value=0 name="activity-voting">
+          {% for act in related_activities %}
+            <div style="float: left; padding: 10px 44px;">{{ act }}</div>
+            <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act }}');" >Up vote</div>
+            <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act }}');" >Down vote</div>
+            <input type="hidden" value=0 name="activity-voting-{{ act }}">
+          {% endfor %}
         </div>
       </div>
     </div>

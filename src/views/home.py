@@ -13,4 +13,5 @@ class MainPage(webapp2.RequestHandler):
         constants.HTML_ROOT + 'home.html')
     self.response.write(template.render(
         {'activities': json.dumps(library.GetActivities()),
-         'activity_list': library.GetActivities()}))
+         'activity_list': library.GetActivities(),
+         'user_model': json.dumps(library.GetUserModel())}))

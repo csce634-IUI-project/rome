@@ -1,23 +1,23 @@
-Question,Tag,Valence (+/-)
-I have a need to express myself,Performance,+
-It is importatnt to me to be physically active,Physical Activity,+
-I find group activities to be tiring,Social,-
-Cooperating with others on tasks is more rewarding than doing them by myself,Group/Team,+
-I enjoy discovering more about the lives and views of other people.,Culture,+
-I enjoy pitting my skill against an opponent,Competitive,+
-I care about the best ways to invest time in my health,Health,+
-I'm comfortable with learning new tools and techniques,Technology,+
-I enjoy challenging my mind.,Intellectual,+
-THe most interesting activities are often the most strange.,Strange,+
-I value complete sets more than individual pieces,Collecting,+
-I enjoy making something unique,Creative,+
-I am currently capable of devoting financial resources to a hobby,Cost,+
-I want a hobby that can be performed indoors,Indoor,+
-I want a hobby that can be performed outdoors,Outdoor,+
-An activity is better if you can eat/drink its product,Gastronomy,+
-Photographs are more than just pictures to me; they're memories.,Photography,+
-"I enjoy shaping nature, not just experienceing it",Landscaping,+
-I feel at home in the water,Aquatic,+
-Sound offers an incomparable advantage to my experiences,Audio,+
-I gain satisfaction from shaping my living environment,Home Improvement,+
-I use my appearance to express who I am,Fashion,+
+Sl no,Question,Tag,Valence (+/-)
+1,I have a need to express myself,Performance,+
+2,It is importatnt to me to be physically active,Physical Activity,+
+3,I find group activities to be tiring,Social,-
+4,Cooperating with others on tasks is more rewarding than doing them by myself,Team/Group,+
+5,I enjoy discovering more about the lives and views of other people.,Culture,+
+6,I enjoy pitting my skill against an opponent,Competitive,+
+7,I care about the best ways to invest time in my health,Health,+
+8,I'm comfortable with learning new tools and techniques,Technology,+
+9,I enjoy challenging my mind.,Intellectual,+
+10,THe most interesting activities are often the most strange.,Strange,+
+11,I value complete sets more than individual pieces,Collecting,+
+12,I enjoy making something unique,Creative,+
+13,I am currently capable of devoting financial resources to a hobby,Cost,+
+14,I want a hobby that can be performed indoors,Indoor,+
+15,I want a hobby that can be performed outdoors,Outdoor,+
+16,An activity is better if you can eat/drink its product,Gastronomy,+
+17,Photographs are more than just pictures to me; they're memories.,Photography,+
+18,"I enjoy shaping nature, not just experienceing it",Landscaping,+
+19,I feel at home in the water,Aquatic,+
+20,Sound offers an incomparable advantage to my experiences,Audio,+
+21,I gain satisfaction from shaping my living environment,Home Improvement,+
+22,I use my appearance to express who I am,Fashion,+
