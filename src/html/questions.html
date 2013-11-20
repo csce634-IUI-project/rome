@@ -18,12 +18,19 @@
 
 {% block content %}
   <div class='content'>
-  <form method="post" action="questions">
-    <input type="hidden" name="q_sl_no" value="{{ q_sl_no }}">
-    <input type="hidden" name="from_questions" value=true>
-    <input type="hidden" name="asked_questions" value="{{ asked_questions }}">
-    <input type="hidden" name="user_model" value="{{ user_model }}">
-    {% if questions %}
+  {% if finish %}
+    <div style="text-align: center; font-size: 20px;">
+      <div>Congrats!!! We have a Hobby for you.</div>
+      <div>{{ related_activities.0.0 }}</div>
+    </div>
+  {% else %}
+    <form method="post" action="questions">
+      <input type="hidden" name="q_sl_no" value="{{ q_sl_no }}">
+      <input type="hidden" name="from_questions" value=true>
+      <input type="hidden" name="asked_questions" value="{{ asked_questions }}">
+      <input type="hidden" name="user_model" value="{{ user_model }}">
+      <input type="hidden" name="related_activities" value="{{ ra }}">
+      <input type="hidden" name="count" value="{{ count }}">
       <div class='left'>
         <div id='top'>
           <div id='label'>
@@ -42,12 +49,13 @@
             </div>
           {% endfor %}
         </div>
-        <div id='button' onclick="submit();">
+        <div id='button' onclick="submit();" style="margin: 200px -40px;">
           Ask me something else
         </div>
+        <div class='button' onclick="hs.home.finish();" style="margin: 200px -600px; overflow: auto;">
+          Would you like it to end??
+        </div>
       </div>
-    {% endif %}
-    {% if related_activities %}
       <div class='right'>
         <div id='top'>
           <div id='map-label'>
@@ -56,17 +64,17 @@
           <div id='map' style="width: 100%;">
             {% for act in related_activities %}
               <div style="overflow: auto;">
-                <div style="float: left; padding: 10px 44px;">{{ act }}</div>
-                <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act }}');" >Up vote</div>
-                <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act }}');" >Down vote</div>
-                <input type="hidden" value=0 name="activity-voting-{{ act }}">
+                <div style="float: left; padding: 10px 44px;">{{ act.0 }}</div>
+                <div id="small-button" onclick="hs.home.upvote('activity-voting-{{ act.1 }}');" >Up vote</div>
+                <div id="small-button" onclick="hs.home.downvote('activity-voting-{{ act.1 }}');" >Down vote</div>
+                <input type="hidden" value=0 name="activity-voting-{{ act.1 }}">
               </div>
             {% endfor %}
           </div>
         </div>
       </div>
-    {% endif %}
-  </form>
+    </form>
+  {% endif %}
   </div>
 {% endblock %}
 

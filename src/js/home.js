@@ -23,3 +23,8 @@ hs.home.sendactivity = function (elId) {
   values = document.getElementById(elId).value.split(', ');
   hs.questions.getQuestions(values, 'activity');
 };
+
+hs.home.finish = function() {
+  document.getElementsByName('count')[0].value = 10;
+  document.forms[0].submit();
+}; 

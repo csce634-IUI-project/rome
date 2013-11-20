@@ -156,21 +156,17 @@ def GetQuestionsFromTags(tags, asked_questions):
     if row['Tag'] in tags:
       questions.append((row['Sl no'], row['Question']))
   questions = list(set(questions))
-  print 'aq', asked_questions
-  print 'questions', questions
   for qno in reversed(range(len(questions))):
     if questions[qno][0] in asked_questions:
       del questions[qno]
   return questions[:2]
 
 
-def ProcessAnswersAndReturnNewTagsAndSuggestedTasks(user_model, q_n_a):
+def ProcessAnswersAndReturnNewTagsAndSuggestedTasks(user_model, q_n_a, act_with_votes):
   tags_with_answers = GetTagsFromQuestionsAndAssociateAnswers(q_n_a)
-  ScoreActivities(user_model, tags_with_answers)
+  ScoreActivities(user_model, tags_with_answers, act_with_votes)
   related_tasks = GetTopFourTasksWithHighestScore(user_model)
-  print related_tasks
-  tags = GetTagsFromActivities(related_tasks)
-  print 'tags', tags
+  tags = GetTagsFromActivities([x[0] for x in related_tasks])
   return tags, related_tasks
 
 
@@ -190,12 +186,12 @@ def GetTopFourTasksWithHighestScore(db):
   ranked_dict = []
   sorted_x = sorted(initial_dict.iteritems(), key=operator.itemgetter(1))
   sorted_x.reverse()
-  for act, _ in sorted_x[:4]:
-    ranked_dict.append(act)
+  for act in sorted_x[:4]:
+    ranked_dict.append((act[0], db[act[0]]['Sl no']))
   return ranked_dict
 
 
-def ScoreActivities(user_model, tags_with_answers):
+def ScoreActivities(user_model, tags_with_answers, act_with_votes):
   for tag, ans_val in tags_with_answers.iteritems():
     for act in user_model.values():
       if act[tag] != 'x':
@@ -203,6 +199,13 @@ def ScoreActivities(user_model, tags_with_answers):
           act[tag] = int(act[tag]) + 1
         elif int(act[tag]) > 0 and ans_val_dict.get(ans_val, 0) == -1:
           act[tag] = int(act[tag]) - 1
+  for act, vote in act_with_votes.iteritems():
+    for key, item in user_model[act].iteritems():
+      if key not in ('Sl no', 'Activity') and item != 'x':
+        if int(item) < 6 and vote > 0:
+          user_model[act][key] = int(item) + 1
+        elif int(item) > 0 and vote < 0:
+          user_model[act][key] = int(item) - 1
 
 
 ans_val_dict = {

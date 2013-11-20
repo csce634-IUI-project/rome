@@ -1,58 +1,58 @@
 Sl no,Question,Tag,Valence (+/-)
-1,I have a need to express myself,Performance,0
-2,It is importatnt to me to be physically active,Physical Activity,0
-3,I find group activities to be tiring,Social,0
-4,Cooperating with others on tasks is more rewarding than doing them by myself,Team/Group,0
-5,I enjoy discovering more about the lives and views of other people.,Culture,0
-6,I enjoy pitting my skill against an opponent,Competitive,0
-7,I care about the best ways to invest time in my health,Health,0
-8,I'm comfortable with learning new tools and techniques,Technology,0
-9,I enjoy challenging my mind.,Intellectual,0
-10,THe most interesting activities are often the most strange.,Strange,0
-11,I value complete sets more than individual pieces,Collecting,0
-12,I enjoy making something unique,Creative,0
-13,I am currently capable of devoting financial resources to a hobby,Cost Expensive,0
-14,I want a hobby that can be performed indoors,Indoor,0
-15,I want a hobby that can be performed outdoors,Outdoor,0
-16,An activity is better if you can eat/drink its product,Gastronomy,0
-17,Photographs are more than just pictures to me; they're memories.,Photography,0
-18,"I enjoy shaping nature, not just experienceing it",Landscaping,0
-19,I feel at home in the water,Aquatic,0
-20,Sound offers an incomparable advantage to my experiences,Audio,0
-21,I gain satisfaction from shaping my living environment,Home Improvement,0
-22,I use my appearance to express who I am,Fashion,0
-23,I like exploring new places and cultures,Admiration of foreign cultures,0
-24,I can consider myself a foodie,Gastronomy,0
-25,I am passionate about expressing myself through my photographs,Photography,0
-26,I am into collecting stamps coins and other curios,Collecting,0
-27,I feel at home in the water,Aquatic,0
-28,I find going out and interacting with others an integral part of my life,Social,0
-29,I like activites that push my limits both mentally and physically,Extreme,0
-30,My budget is limited to only cheap activities,Cost Cheap,0
-31,My budget is limited to slightly more expensive activities,Cost Medium,0
-32,My budget is not under any kind of financial limits,Cost Expensive,0
-33,Learning about foreign cultures and traditions is one of my passions,Admiration of foreign cultures,0
-34,I like exploring new avenues of international cuisine,Gastronomy,0
-35,I consider Instagramming photos an amazingly fun activity,Photography,0
-36,Collecting stamps is a way of exploring the World for me,Collecting,0
-37,I take to swimming as a way to relax myself,Aquatic,0
-38,Music is a way to connect with my inner self,Audio,0
-39,Group Activities are the best way of socializing with others,Team/Group,0
-40,I prefer the gladiatorial aspects of any sport,Competitive,0
-41,My home is a reflection of my personality,Home Improvement,0
-42,What people think of my appearance matters a great deal to me,Fashion,0
-43,Creating something that isn't mainstream is really fun,Creative,0
-44,I would prefer an indoor activity to an outdoor one any day,Indoor,0
-45,I would prefer an outdoor activity to an indoor one any day,Outdoor,0
-46,Socializng and hanging out with friends is something I enjoy the most,Social,0
-47,I hit the gym regularly to keep myself in shape,Physical,0
-48,Engaging in informed debates about non trivial topis makes my day,Intellectual,0
-49,Am what you could call a health junkie,Health,0
-50,I keep myself in the loop about the latest developments in the tech sector,Technology,0
-51,Getting praise from others for my performance is a key motivator for me,Performance,0
-52,I feel happy after the end of an activity that pushed me to my breaking point,Extreme,0
-53,It is only by doing something radically new and strange do we truly discover ourselves,Strange,0
-54,I can spend only a limited amount on these activites due to financial constraints,Cost Cheap,0
-55,I can spend only a limited amount on these activites but am willing to stretch my budget for the right activity,Cost Medium,0
-56,I can spend only a lot on activities I truly enjoy,Cost Expensive,0
-57,I am a regular subscriber of Landscaping Today,Landscaping,0
+1,I have a need to express myself,Performance,+
+2,It is importatnt to me to be physically active,Physical Activity,+
+3,I find group activities to be tiring,Social,-
+4,Cooperating with others on tasks is more rewarding than doing them by myself,Team/Group,+
+5,I enjoy discovering more about the lives and views of other people.,Culture,+
+6,I enjoy pitting my skill against an opponent,Competitive,+
+7,I care about the best ways to invest time in my health,Health,+
+8,I'm comfortable with learning new tools and techniques,Technology,+
+9,I enjoy challenging my mind.,Intellectual,+
+10,THe most interesting activities are often the most strange.,Strange,+
+11,I value complete sets more than individual pieces,Collecting,+
+12,I enjoy making something unique,Creative,+
+13,I am currently capable of devoting financial resources to a hobby,Cost Expensive,+
+14,I want a hobby that can be performed indoors,Indoor,+
+15,I want a hobby that can be performed outdoors,Outdoor,+
+16,An activity is better if you can eat/drink its product,Gastronomy,+
+17,Photographs are more than just pictures to me; they're memories.,Photography,+
+18,"I enjoy shaping nature, not just experienceing it",Landscaping,+
+19,I feel at home in the water,Aquatic,+
+20,Sound offers an incomparable advantage to my experiences,Audio,+
+21,I gain satisfaction from shaping my living environment,Home Improvement,+
+22,I use my appearance to express who I am,Fashion,+
+23,I like exploring new places and cultures,Admiration of foreign cultures,+
+24,I can consider myself a foodie,Gastronomy,+
+25,I am passionate about expressing myself through my photographs,Photography,+
+26,I am into collecting stamps coins and other curios,Collecting,+
+27,I feel at home in the water,Aquatic,+
+28,I find going out and interacting with others an integral part of my life,Social,+
+29,I like activites that push my limits both mentally and physically,Extreme,+
+30,My budget is limited to only cheap activities,Cost Cheap,+
+31,My budget is limited to slightly more expensive activities,Cost Medium,+
+32,My budget is not under any kind of financial limits,Cost Expensive,+
+33,Learning about foreign cultures and traditions is one of my passions,Admiration of foreign cultures,+
+34,I like exploring new avenues of international cuisine,Gastronomy,+
+35,I consider Instagramming photos an amazingly fun activity,Photography,+
+36,Collecting stamps is a way of exploring the World for me,Collecting,+
+37,I take to swimming as a way to relax myself,Aquatic,+
+38,Music is a way to connect with my inner self,Audio,+
+39,Group Activities are the best way of socializing with others,Team/Group,+
+40,I prefer the gladiatorial aspects of any sport,Competitive,+
+41,My home is a reflection of my personality,Home Improvement,+
+42,What people think of my appearance matters a great deal to me,Fashion,+
+43,Creating something that isn't mainstream is really fun,Creative,+
+44,I would prefer an indoor activity to an outdoor one any day,Indoor,+
+45,I would prefer an outdoor activity to an indoor one any day,Outdoor,+
+46,Socializng and hanging out with friends is something I enjoy the most,Social,+
+47,I hit the gym regularly to keep myself in shape,Physical,+
+48,Engaging in informed debates about non trivial topis makes my day,Intellectual,+
+49,Am what you could call a health junkie,Health,+
+50,I keep myself in the loop about the latest developments in the tech sector,Technology,+
+51,Getting praise from others for my performance is a key motivator for me,Performance,+
+52,I feel happy after the end of an activity that pushed me to my breaking point,Extreme,+
+53,It is only by doing something radically new and strange do we truly discover ourselves,Strange,+
+54,I can spend only a limited amount on these activites due to financial constraints,Cost Cheap,+
+55,I can spend only a limited amount on these activites but am willing to stretch my budget for the right activity,Cost Medium,+
+56,I can spend only a lot on activities I truly enjoy,Cost Expensive,+
+57,I am a regular subscriber of Landscaping Today,Landscaping,+
